@@ -21,13 +21,11 @@ namespace HelloWorld.Models
         /// <returns></returns>
         public Models.Order GetOrderById(string orderId)
         {
-            Order order = new Order(){
-                CustId = "001",
-                CustName = "叡揚資訊",
-                EmpId = 1,
-                EmpName = "王小明",
-                Orderdate = DateTime.Parse("2015/11/08") };
-            return order;
+            Order result = new Order(){
+                CustId = "GSS",
+                CustName = "叡揚資訊"
+            };
+            return result;
         }
         /// <summary>
         /// 依照條件取得訂單資料

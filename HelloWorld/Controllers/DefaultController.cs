@@ -14,5 +14,12 @@ namespace HelloWorld.Controllers
             ViewBag.desc = "Hello World";
             return View();
         }
+        
+        public ActionResult Index2(string id)
+        {
+            ViewBag.desc = "Hello World"+ id;
+            return View();
+        }
+        
     }
 }
